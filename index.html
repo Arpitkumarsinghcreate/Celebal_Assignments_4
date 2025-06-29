@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arpit Kumar Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Arpit Singh</div>
+    <nav id="nav">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Certificates</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="burger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <section class="content">
+      <h2>About Me</h2>
+      <p>I'm Arpit Kumar Singh, a third-year Computer Science Engineering student at Galgotias University. I specialize in building responsive, user-friendly web applications and enjoy solving real-world problems using Data Structures and Algorithms. I actively participate in hackathons and team projects.</p>
+
+      <h3>Skills</h3>
+      <ul>
+        <li><strong>Languages:</strong> C, C++, Python, Java, HTML, CSS, JavaScript, SQL</li>
+        <li><strong>Frameworks:</strong> React.js, Node.js, MongoDB</li>
+        <li><strong>Tools:</strong> Git, Linux, VS Code, RestAPI</li>
+        <li><strong>Coursework:</strong> DSA, OOPs, DBMS, OS, ML</li>
+        <li><strong>Soft Skills:</strong> Public Speaking, Event Management</li>
+      </ul>
+
+      <h3>Education</h3>
+      <p>B.Tech in Computer Science Engineering, Galgotias University (2022 – 2026)<br>CGPA: 7.53/10</p>
+    </section>
+
+    <aside class="sidebar">
+      <h3>Projects</h3>
+      <ul>
+        <li><strong>Alpha News:</strong> Real-time news platform with React and News API.</li>
+        <li><strong>Weather App:</strong> Live weather forecast with search support using JavaScript & API.</li>
+      </ul>
+
+      <h3>Certificates</h3>
+      <ul>
+        <li><strong>Android Developer Internship</strong> – EduSkills (AICTE)</li>
+        <li><strong>Software Engineering</strong> – NPTEL (Elite Score: 51)</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Contact: <a href="mailto:arpitgaikwad7766@gmail.com">arpitgaikwad7766@gmail.com</a> | 📞 +91-8521806658</p>
+    <p>
+      <a href="https://linkedin.com/in/arpit-singh-488aa5283" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/Arpitkumarsinghcreate" target="_blank">GitHub</a>
+    </p>
+    <p>&copy; 2025 Arpit Kumar Singh. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
